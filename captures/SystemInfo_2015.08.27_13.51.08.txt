@@ -1,0 +1,36 @@
+Applications Memory Usage (kB):
+Uptime: 13094655 Realtime: 29245503
+
+** MEMINFO in pid 16019 [k2gps.controlvehiculo] **
+                         Shared  Private     Heap     Heap     Heap
+                   Pss    Dirty    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------
+       Native     3841      400     3816     8696     7935      132
+       Dalvik     3920     4664     3224    10695    10198      497
+       Cursor        0        0        0                           
+       Ashmem     2432     4864        0                           
+    Other dev     1840        0     1800                           
+     .so mmap     4695      308      356                           
+    .jar mmap        0        0        0                           
+    .apk mmap      338        0        0                           
+    .ttf mmap       97        0        0                           
+    .dex mmap     1094        0       12                           
+   Other mmap     1667        4       32                           
+      Unknown     2847       16     2840                           
+        TOTAL    22771    10256    12080    19391    18133      629
+ 
+ Objects
+               Views:       99         ViewRootImpl:        2
+         AppContexts:        4           Activities:        3
+              Assets:        3        AssetManagers:        3
+       Local Binders:       15        Proxy Binders:       15
+    Death Recipients:        1
+     OpenSSL Sockets:        0
+ 
+ SQL
+                heap:       57          MEMORY_USED:       57
+  PAGECACHE_OVERFLOW:        2          MALLOC_SIZE:       46
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         1       12             14          0/6/0  webview.db

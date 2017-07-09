@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Control vehículo</string>
+    <string name="vehiculoselect">Control vehículo</string>
+    <string name="action_settings">Herramientas</string>
+    <string name="action_exit">Salir</string>
+    <string name="version">v1.20</string>
+    <string-array name="listArray">
+    </string-array>
+    <string-array name="listValues">
+    </string-array>
+</resources>

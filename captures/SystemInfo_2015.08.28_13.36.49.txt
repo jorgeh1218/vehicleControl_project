@@ -1,0 +1,75 @@
+Applications Memory Usage (kB):
+Uptime: 2108430 Realtime: 8671122
+
+Total PSS by process:
+    33604 kB: system (pid 182)
+    23708 kB: android.process.acore (pid 432)
+    20304 kB: com.google.android.gms (pid 583)
+    19806 kB: com.android.launcher (pid 375)
+    16622 kB: com.google.process.gapps (pid 325)
+    13845 kB: com.android.vending (pid 900)
+    12009 kB: com.google.android.gms.persistent (pid 541)
+     9400 kB: com.android.systemui (pid 247)
+     6836 kB: com.android.inputmethod.latin (pid 343)
+     6494 kB: com.google.android.apps.maps (pid 2115)
+     6115 kB: com.android.phone (pid 360)
+     5742 kB: k2gps.controlvehiculo (pid 2406)
+     4415 kB: com.google.android.apps.maps:FriendService (pid 2357)
+     4079 kB: android.process.media (pid 1701)
+     3553 kB: com.android.quicksearchbox (pid 2381)
+     3485 kB: com.google.android.apps.maps:LocationFriendService (pid 2398)
+     3359 kB: com.android.gallery3d (pid 1315)
+     3077 kB: com.android.musicfx (pid 1573)
+     2866 kB: com.android.keychain (pid 2303)
+     2704 kB: com.android.defcontainer (pid 2288)
+     2673 kB: com.google.android.partnersetup (pid 2320)
+     2540 kB: com.android.smspush (pid 473)
+     2388 kB: com.svox.pico (pid 2339)
+
+Total PSS by OOM adjustment:
+    33604 kB: System
+               33604 kB: system (pid 182)
+    15515 kB: Persistent
+                9400 kB: com.android.systemui (pid 247)
+                6115 kB: com.android.phone (pid 360)
+     5742 kB: Foreground
+                5742 kB: k2gps.controlvehiculo (pid 2406)
+    38007 kB: Visible
+               16622 kB: com.google.process.gapps (pid 325)
+               12009 kB: com.google.android.gms.persistent (pid 541)
+                6836 kB: com.android.inputmethod.latin (pid 343)
+                2540 kB: com.android.smspush (pid 473)
+    13845 kB: A Services
+               13845 kB: com.android.vending (pid 900)
+    19806 kB: Home
+               19806 kB: com.android.launcher (pid 375)
+    83105 kB: Background
+               23708 kB: android.process.acore (pid 432)
+               20304 kB: com.google.android.gms (pid 583)
+                6494 kB: com.google.android.apps.maps (pid 2115)
+                4415 kB: com.google.android.apps.maps:FriendService (pid 2357)
+                4079 kB: android.process.media (pid 1701)
+                3553 kB: com.android.quicksearchbox (pid 2381)
+                3485 kB: com.google.android.apps.maps:LocationFriendService (pid 2398)
+                3359 kB: com.android.gallery3d (pid 1315)
+                3077 kB: com.android.musicfx (pid 1573)
+                2866 kB: com.android.keychain (pid 2303)
+                2704 kB: com.android.defcontainer (pid 2288)
+                2673 kB: com.google.android.partnersetup (pid 2320)
+                2388 kB: com.svox.pico (pid 2339)
+
+Total PSS by category:
+    68867 kB: Dalvik
+    49660 kB: Unknown
+    41799 kB: Native
+    20059 kB: .dex mmap
+    18143 kB: .apk mmap
+     9989 kB: .so mmap
+      785 kB: Other mmap
+      152 kB: .ttf mmap
+      104 kB: Other dev
+       42 kB: Ashmem
+       24 kB: Cursor
+        0 kB: .jar mmap
+
+Total PSS: 209624 kB

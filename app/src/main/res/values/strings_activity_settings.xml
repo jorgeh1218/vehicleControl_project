@@ -1,0 +1,28 @@
+<resources>
+    <string name="title_activity_settings">Herramientas</string>
+
+    <string name="pref_title_usuario">Usuario</string>
+    <string name="pref_description_usuario">Usuario para conectarse a servidor de rastreo</string>
+    <string name="pref_default_usuario">USUARIO</string>
+
+    <string name="pref_title_clave">Clave</string>
+    <string name="pref_description_clave">Clave para conectarse a servidor de rastreo</string>
+    <string name="pref_default_clave">CLAVE</string>
+
+    <string name="pref_title_telno">Telefono del propietario</string>
+    <string name="pref_description_telno">Numero del telefono que se usa para consulta</string>
+    <string name="pref_default_telno">1234567</string>
+
+    <string name="pref_title_gps_imei">IMEI del rastreador</string>
+    <string name="pref_description_gps_imei">Numero IMEI del dispositivo rastreador</string>
+    <string name="pref_default_gps_imei">IMEI</string>
+
+    <string name="pref_title_gps_telno">Telefono del rastreador</string>
+    <string name="pref_description_gps_telno">Numero telefonico del dispositivo rastreador</string>
+    <string name="pref_default_gps_telno">1234567</string>
+
+    <string name="pref_title_gps_clave">Clave del rastreador</string>
+    <string name="pref_description_gps_clave">Clave para acceder al dispositivo rastreador</string>
+    <string name="pref_default_gps_clave">1234567</string>
+
+</resources>

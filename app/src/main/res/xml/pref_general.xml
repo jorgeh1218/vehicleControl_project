@@ -1,0 +1,62 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Preferencias">
+    <PreferenceCategory android:title="Preferencias">
+        <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+        <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+        <!-- <EditTextPreference
+            android:key="usuario"
+            android:title="@string/pref_title_usuario"
+            android:defaultValue="@string/pref_default_usuario"
+            android:selectAllOnFocus="true"
+            android:inputType="textEmailAddress"
+            android:capitalize="none"
+            android:singleLine="true"
+            android:maxLines="1" />
+
+        <EditTextPreference
+            android:key="clave"
+            android:title="@string/pref_title_clave"
+            android:defaultValue="@string/pref_default_clave"
+            android:selectAllOnFocus="true"
+            android:inputType="text"
+            android:capitalize="none"
+            android:singleLine="true"
+            android:maxLines="1" />-->
+
+        <ListPreference
+            android:title="Vehículo"
+            android:summary="Seleccionar el vehiculo"
+            android:key="ListaVehiculos"
+            android:entries="@array/listArray"
+            android:entryValues="@array/listValues"
+            android:negativeButtonText="Cancelar"/>
+        <EditTextPreference
+            android:key="gps_telno"
+            android:title="@string/pref_title_gps_telno"
+            android:defaultValue="@string/pref_default_gps_telno"
+            android:selectAllOnFocus="true"
+            android:inputType="text|phone"
+            android:capitalize="none"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:enabled="false"/>
+
+        <EditTextPreference
+            android:enabled="false"
+            android:key="gps_clave"
+            android:title="@string/pref_title_gps_clave"
+            android:defaultValue="@string/pref_default_gps_clave"
+            android:selectAllOnFocus="true"
+            android:inputType="text|numberDecimal"
+            android:capitalize="none"
+            android:singleLine="true"
+            android:maxLines="1" />
+
+        <Preference
+            android:key="photo"
+            android:summary="Cambiar foto de perfil"
+            android:title="Foto del vehículo" >
+        </Preference>
+
+    </PreferenceCategory>
+</PreferenceScreen>
